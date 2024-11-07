@@ -1,0 +1,915 @@
+/* Extra Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+/* header */
+    header{
+        padding: 15px 0;
+    }
+    .logo h1{
+        font-size: 22px;
+    }
+    .nt{
+        padding: 4px 5px; 
+    }
+    .nti{
+        width: 1.3em; 
+        height: 1.3em; 
+    }
+    .menu ul li a, .dd a{
+        float: right;
+        margin-top: 6px;
+    }
+    .dd-menu{
+        width: 230px;
+    }
+    .dd-menu[data-bs-popper] {
+        left: 65px;
+        top: 38px;
+    }
+    .dd-input input{
+        padding: 0 10px !important;
+        margin: 15px 0 7px 5px;
+    }
+    .dd-btn button{
+        margin-top: 5px;
+    }
+
+/* slider */
+    #slider{
+        padding-top: 100px;
+    }
+    .c-text h1{
+        font-size: 30px;
+    }
+    .c-text p{
+        padding: 20px 0 25px;
+    }
+    .common-btn{
+        padding: 8px 18px;
+    }
+    .common-arrow{
+        padding-left: 10px;
+    }
+    .c-text a{   
+        margin-bottom: 90px;
+    }
+
+/* gallery */
+    .line{
+        height: 27px;
+    }
+    .common-title h1{
+        padding: 15px 0 40px;
+        font-size: 20px;
+    }
+    .c-padding{
+        padding-bottom: 50px;
+    }
+    .icon-1{    
+        width: 55px;
+        font-size: 50px;
+    }
+    .box-1{
+        margin: 0 20px 60px;
+    }
+    .box-1 h2{
+        padding: 10px 0 15px;
+    }
+    .lato-bold{
+        font-size: 17px;
+    }
+    .box-1 p{
+        padding: 15px 5px 15px;
+        word-spacing: 1px;
+    }
+    .box-1 a{
+        padding-bottom: 25px !important;
+    }
+
+/* About us */
+    .a-img img{
+        margin: 0 0 30px !important;
+    }
+    .a-text{
+        padding-left: 0px;
+        text-align: center;
+    }
+    .a-text h1{
+        padding-bottom: 10px;
+        font-size: 22px;
+    }
+    .a-text p{
+        padding: 0 10px 15px;
+    }
+
+/* recent work */
+    #portfolio{
+        padding-bottom: 25px;
+    }
+    .work{
+        padding: 0 0 10px 10px;
+    }
+    .work ul li a h2{
+        padding: 8px 7px;
+    }
+    .p-wrapper{
+        margin: 0 40px 25px;
+    }
+
+/* Facilities section */
+    #choose{
+        padding-bottom: 25px;
+    }
+    .f-1{
+        text-align: center;
+        padding: 0 25px 25px;
+    }
+    .f-top i{
+        font-size: 35px;
+    }
+    .f-top h2{
+        padding-top: 7px;
+    }
+    .f-body p{
+        padding: 15px 0 20px;
+    }
+    .line-3{
+        width: 240px;
+    }
+
+/* mentor section */
+    .m-box{
+        height: 380px;
+        padding-left: 0px;
+        margin: 0 20px 0;
+    }
+    .name{
+        padding: 10px 12px 12px;
+    }
+    .name h2{
+        margin-bottom: 0;
+    }
+    .side-bar{
+        width: 38px;
+    }
+    .side-bar ul li i{
+        font-size: 24px;
+        padding: 5px 0;
+    }
+
+/* price section */
+    .p-box{
+        padding: 5px 0 25px 18px;
+        margin: 0 20px 50px;
+    }
+    .p-box p{
+        padding-bottom: 10px;
+    }
+    .p-box p span{
+        font-size: 22px;
+    }
+    .p-box ul li{
+        padding-bottom: 10px;
+    }
+
+/* buy now section */
+    #buy{
+        margin: 20px 0 80px;
+    }
+    .b-text h2{
+        padding: 20px 0 20px;
+        font-size: 16px;
+    }
+    .b-btn{
+        padding: 0 0 25px;
+    }
+
+/* introduction section */
+    .cb-2{
+        width: 300px;
+        height: 50px;
+        padding: 20px 0px;
+        right: -160px;
+        bottom: 0;
+        transform: rotate(0deg); 
+    }
+
+    /* introduction section */
+    #intro{
+        padding: 0 0 80px;
+    }
+    .i-box{
+        height: 606px;
+        padding: 15px 0;
+        text-align: center;
+    }
+    .i-img img{
+        width: 230px;
+        height: 200px;
+        position: unset;
+    }
+    .i-img i{
+        font-size: 25px;
+        top: 5px;
+        left: -219px;
+    }
+    .i-text{
+        margin-right: 20px;
+    }
+    .i-text h2{
+        padding: 15px 0 5px;
+    }
+    .pg-1{
+        font-size: 17px;
+        padding:  0;
+    }
+    .pg-2{
+        font-size: 17px;
+        color: #010101;
+    }
+    .pg-4{
+        padding: 0px 0 20px;
+    }
+    .i-text2{
+        margin: 0 30px;
+    }
+    .cb-2{
+        width: 319px;
+        height: 45px;
+        padding: 8px 0px;
+        right: 0px;
+        bottom: -28px;
+        transform: rotate(0deg);
+    }
+    .i-line{
+        padding: 0 50px;
+    }
+    
+/* contact section */
+    .c-title h1{
+        padding: 0 8px;
+        top: -12px;
+    }
+    .i-1{
+        width: 100%;
+        padding: 35px 0 10px 20px !important;
+    }
+    .i-2{
+        width: 100%;
+        padding: 35px 0 10px 20px !important;
+    }
+    .i-3{
+        width: 100%;
+        padding: 35px 0 10px 20px !important;
+    }
+    .i-btn{
+        padding: 35px 0;
+    }
+
+/* footer section */
+    .s-icon{
+        padding: 20px 0 50px;
+    }
+    .s-icon a i{
+        padding: 7px 8px;
+        margin-right: 5px !important;
+        font-size: 17px;
+    }
+    .f-bottom{
+        padding: 0 0 15px;
+    }
+    .f-bottom p{
+        text-align: center;
+    }
+    .f-link{
+        padding: 15px 0 5px;
+        text-align: center;
+    }
+    .f-link a{
+        margin-left: 5px !important;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+/* header */
+    header{
+        padding: 20px 0;
+    }
+    .logo h1{
+        font-size: 25px;
+    }
+    .menu ul li a, .dd a{
+        float: right;
+        margin-top: 8px;
+    }
+    .dd-menu{
+        width: 250px;
+    }
+    .dd-menu[data-bs-popper] {
+        left: 269px;
+        top: 38px;
+    }
+    .dd-input input{
+        padding: 0 10px !important;
+        margin: 15px 0 7px 5px;
+    }
+    .dd-btn button{
+        margin-top: 5px;
+    }
+
+/* slider */
+    #slider{
+        padding-top: 150px;
+    }
+    .c-text h1{
+        font-size: 35px;
+    }
+    .c-text p{
+        padding: 25px 0 30px;
+    }
+    .common-btn{
+        padding: 10px 13px;
+    }
+    .common-arrow{
+        padding-left: 8px;
+    }
+    .c-text a{   
+        margin-bottom: 120px;
+    }
+
+/* gallery */
+    .line{
+        height: 30px;
+    }
+    .common-title h1{
+        padding: 25px 0 50px;
+        font-size: 22px;
+    }
+    .c-padding{
+        padding-bottom: 60px;
+    }
+    .icon-1{    
+        width: 45px;
+        font-size: 40px;
+    }
+    .box-1{
+        margin: 0 10px 50px;
+    }
+    .box-1 h2{
+        padding: 10px 0 15px;
+    }
+    .lato-bold{
+        font-size: 17px;
+    }
+    .box-1 p{
+        padding: 15px 5px 15px;
+        word-spacing: 1px;
+    }
+    .box-1 a{
+        padding-bottom: 25px !important;
+    }
+
+/* About us */
+    .a-img img{
+        margin: 0 0 40px !important;
+    }
+    .a-text{
+        padding-left: 0px;
+        text-align: center;
+    }
+    .a-text h1{
+        padding-bottom: 10px;
+        font-size: 25px;
+    }
+    .a-text p{
+        padding-bottom: 15px;
+    }
+
+/* recent work */
+    #portfolio{
+        padding-bottom: 30px;
+    }
+    .work{
+        padding: 0 0 20px 10px;
+    }
+    .work ul li a h2{
+        padding: 8px 7px;
+    }
+    .p-wrapper{
+        margin: 0 15px 35px;
+    }
+
+/* Facilities section */
+    #choose{
+        padding-bottom: 35px;
+    }
+    .f-1{
+        text-align: center;
+        padding: 0 0 25px;
+    }
+    .f-top i{
+        font-size: 35px;
+    }
+    .f-top h2{
+        padding-top: 7px;
+    }
+    .f-body p{
+        padding: 15px 0 20px;
+    }
+    .line-3{
+        width: 240px;
+    }
+
+/* mentor section */
+    .m-box{
+        height: 390px;
+        padding-left: 0px;
+    }
+    .m-box img{
+        width: 240px;
+    }
+    .name{
+        width: 240px;
+        padding: 10px 12px 12px;
+    }
+    .name h2{
+        margin-bottom: 0;
+    }
+    .side-bar{
+        width: 38px;
+    }
+    .side-bar ul li i{
+        font-size: 24px;
+        padding: 5px 0;
+    }
+
+/* price section */
+    .p-box{
+        padding: 5px 0 25px 18px;
+        margin: 0 10px 50px;
+    }
+    .p-box p{
+        padding-bottom: 10px;
+    }
+    .p-box p span{
+        font-size: 25px;
+    }
+    .p-box ul li{
+        padding-bottom: 10px;
+    }
+
+/* buy now section */
+    #buy{
+        margin: 20px 0 80px;
+    }
+    .b-text h2{
+        padding: 25px 0;
+        font-size: 16px;
+    }
+    .b-btn{
+        padding: 12px 0 0;
+    }
+
+/* introduction section */
+    #intro{
+        padding: 0 0 80px;
+    }
+    .i-box{
+        height: 320px;
+        padding: 15px 0 15px 10px;
+    }
+    .i-img img{
+        width: 232px;
+        height: 198px;
+        position: unset;
+    }
+    .i-img i{
+        font-size: 27px;
+        top: 7px;
+        left: -190px;
+    }
+    .i-text{
+        position: relative;
+        left: 37px;
+    }
+    .i-text h2{
+        padding: 10px 0 5px;
+    }
+    .pg-1{
+        font-size: 17px;
+        padding:  0;
+    }
+    .pg-2{
+        font-size: 17px;
+        color: #010101;
+    }
+    .pg-4{
+        padding: 0px 0 20px;
+    }
+    .i-text2{
+        margin-right: 20px;
+    }
+    .cb-2{
+        width: 540px;
+        height: 46px;
+        padding: 8px 0px;
+        right: 10px;
+        bottom: -30px;
+        transform: rotate(0deg);
+    }
+    .i-line{
+        padding: 0 195px;
+    }
+
+/* contact section */
+    .c-title h1{
+        padding: 0 10px;
+        top: -14px;
+    }
+    .i-1{
+        width: 100%;
+        padding: 35px 0 10px 20px !important;
+    }
+    .i-2{
+        width: 100%;
+        padding: 35px 0 10px 20px !important;
+    }
+    .i-3{
+        width: 100%;
+        padding: 35px 0 10px 20px !important;
+    }
+    .i-btn{
+        padding: 30px 0;
+    }
+
+/* footer section */
+    .s-icon{
+        padding: 25px 0 60px;
+    }
+    .s-icon a i{
+        padding: 8px 10px;
+        margin-right: 5px !important;
+        font-size: 17px;
+    }
+    .f-bottom{
+        padding: 0 0 20px;
+    }
+    .f-link{
+        padding: 20px 0 5px;
+    }
+    .f-link a{
+        margin-left: 50px !important;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+/* header */
+    header{
+        padding: 25px 0;
+    }
+    .logo h1{
+        font-size: 28px;
+    }
+    .menu ul li a, .dd a{
+        float: right;
+        margin-top: 10px;
+    }
+    .dd-menu{
+        width: 300px;
+    }
+    .dd-menu[data-bs-popper] {
+        left: 400px;
+        top: 43px;
+    }
+    .dd-input input{
+        padding: 0 10px !important;
+        margin: 15px 0 7px 5px;
+    }
+    .dd-btn button{
+        margin-top: 5px;
+    }
+
+/* slider */
+    #slider{
+        padding-top: 180px;
+    }
+    .c-text h1{
+        font-size: 40px;
+    }
+    .c-text p{
+        padding: 35px 0 40px;
+    }
+    .common-btn{
+        padding: 10px 18px;
+    }
+    .common-arrow{
+        padding-left: 12px;
+    }
+    .c-text a{   
+        margin-bottom: 150px;
+    }
+
+/* gallery */
+    .line{
+        height: 33px;
+    }
+    .common-title h1{
+        padding: 30px 0 60px;
+        font-size: 28px;
+    }
+    .c-padding{
+        padding-bottom: 80px;
+    }
+    .icon-1{    
+        width: 50px;
+        font-size: 50px;
+    }
+    .box-1{
+        margin: 0 25px 70px;
+    }
+    .box-1 h2{
+        padding: 20px 0 15px;
+    }
+    .box-1 p{
+        padding: 15px 15px 20px;
+        word-spacing: 2px;
+    }
+    .box-1 a{
+        padding-bottom: 30px !important;
+    }
+
+/* About us */
+    .a-img img{
+        height: 395.2px;
+        padding-top: 0px;
+    }
+    .a-text{
+        padding-left: 30px;
+    }
+    .a-text h1{
+        padding-bottom: 8px;
+        font-size: 28px;
+    }
+    .a-text p{
+        padding-bottom: 10px;
+    }
+
+/* recent work */
+    #portfolio{
+        padding-bottom: 55px;
+    }
+    .work{
+        padding: 0 0 20px 30px;
+    }
+    .work ul li a h2{
+        padding: 10px 10px;
+    }
+    .p-wrapper{
+        margin: 0 10px 25px;
+    }
+
+/* Facilities section */
+    #choose{
+        padding-bottom: 65px;
+    }
+    .f-1{
+        text-align: center;
+        padding: 0 0 30px;
+    }
+    .f-top i{
+        font-size: 40px;
+    }
+    .f-top h2{
+        padding-top: 9px;
+    }
+    .f-body p{
+        padding: 20px 0 25px;
+    }
+    .line-3{
+        width: 213px;
+    }
+
+/* mentor section */
+    .m-box{
+        height: 400px;
+        padding-left: 45px;
+    }
+    .name{
+        padding: 12px 15px 15px;
+    }
+    .side-bar{
+        width: 38px;
+    }
+    .side-bar ul li i{
+        font-size: 24px;
+        padding: 5px 0;
+    } 
+
+/* price section */
+    .p-box{
+        padding: 5px 25px 30px;
+        margin: 0 40px 60px;
+    }
+    .p-box p{
+        padding-bottom: 15px;
+    }
+    .p-box p span{
+        font-size: 25px;
+    }
+    .p-box ul li{
+        padding-bottom: 15px;
+    }
+
+/* buy now section */
+    #buy{
+        margin: 20px 0 80px;
+    }
+    .b-text h2{
+        padding: 25px 0;
+        font-size: 17px;
+    }
+    .b-btn{
+        padding: 12px 0 0;
+    }
+
+/* introduction section */
+    #intro{
+        padding: 0 0 80px;
+    }
+    .i-box{
+        height: 310px;
+        padding: 20px 0 20px 20px;
+    }
+    .i-img img{
+        width: 232px;
+        height: 186px;
+        position: unset;
+    }
+    .i-img i{
+        font-size: 25px;
+        top: 6px;
+        left: -192px;
+    }
+    .i-text{
+        position: relative;
+        left: 36px;
+    }
+    .i-text h2{
+        padding: 10px 0 5px;
+    }
+    .pg-1{
+        font-size: 17px;
+        padding:  0;
+    }
+    .pg-2{
+        font-size: 17px;
+        color: #010101;
+    }
+    .pg-4{
+        padding: 0px 0 20px;
+    }
+    .i-text2{
+        margin-right: 20px;
+    }
+    .cb-2{
+        width: 720px;
+        height: 45px;
+        padding: 8px 0px;
+        right: 21px;
+        bottom: -27px;
+        transform: rotate(0deg);
+    }
+    .i-line{
+        padding: 0 285px;
+    }
+
+/* contact section */
+    .i-1{
+        width: 93%;
+        padding: 50px 0 15px 20px !important;
+    }
+    .i-2{
+        width: 96.5%;
+        padding: 25px 0 15px 20px !important;
+    }
+    .i-3{
+        width: 96.5%;
+        padding: 35px 0 30px 20px !important;
+    }
+    
+/* footer section */
+    .s-icon{
+        padding: 30px 0 80px;
+    }
+    .s-icon a i{
+        padding: 8px 10px;
+        margin-right: 7px !important;
+        font-size: 20px;
+    }
+    .f-bottom{
+        padding: 0 0 20px;
+    }
+    .f-link{
+        padding: 20px 0 10px;
+    }
+    .f-link a{
+        margin-left: 100px !important;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .a-img img{
+        height: 397.6px;
+    }
+/* recent work */
+    .p-wrapper{
+        margin: 0 15px 35px;
+    }
+/* Facilities section */
+    .f-top i{
+        margin: 0 0 0;
+    }
+    .f-body p{
+        margin-right: 30px ;
+    }
+    .m-box img{
+        width: 225px;
+    }
+    .name{
+        width: 225px;
+        padding: 12px 0 15px 5px;
+    }
+
+/* price section */
+    .p-box{
+        padding: 5px 20px 30px;
+    }
+    .p-box p{
+        padding-bottom: 15px;
+    }
+    .p-box ul li{
+        padding: 0 0 15px 17px;
+    }
+    /* introduction section */
+    .i-box{
+        height: 390px;
+        padding: 40px 30px;
+    }
+    .i-img img{
+        width: 260px;
+        height: 310px;
+    }
+    .cb-2{
+        width: 390px;
+        right: -704px;
+        bottom: 192px;
+    }
+    .i-img i{
+        font-size: 34px;
+        top: 7px;
+        left: -100px;
+    }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+/* Facilities section */
+    .line-3{
+        width: 338px;
+    }
+/* introduction section */
+    .i-img img{
+        width: 290px;
+        height: 285px;
+    }
+    .i-img i {
+        font-size: 34px;
+        top: 9px;
+        left: -113px;
+    }
+    .cb-2{
+        right: -890px;
+    }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+/* about us */
+    .a-text h1{
+        padding-top: 25px;
+    }
+/* Facilities section */
+    .line-3{
+        width: 336px;
+    }
+/* introduction section */
+    .i-img img{
+        height: 282.6px;
+    }
+/* recent work section */
+    .port-1 img{
+        width: 413px;
+    }
+}
